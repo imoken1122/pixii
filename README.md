@@ -4,12 +4,9 @@ This is a command line tool to convert an image into color ASCII art.
 It resizes the image and replaces each pixel with the corresponding ASCII character according to its brightness.
 It can also be applied to an image using a string in a text file.
 
-__sample__
-<div style="display: flex;">
-  <img src="samples/sample_outputs/sample1.png" alt="Image 1" style="max-width: 30%;"/>
-  <img src="samples/sample_outputs/sample2.png" alt="Image 2" style="max-width: 30%;" />
-</div>
+<br>
 
+  <img src="samples/sample_outputs/combined_image.jpg" alt="Image 1" />
 <br><br>
 
 ## Prerequisites
