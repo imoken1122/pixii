@@ -5,7 +5,10 @@ It resizes the image and replaces each pixel with the corresponding ASCII charac
 It can also be applied to an image using a string in a text file.
 
 __sample__
-  <img src="samples/sample_outputs/sample1.png" /><img src="samples/sample_outputs/sample2.png"  />
+<div style="display: flex;">
+  <img src="samples/sample_outputs/sample1.png" alt="Image 1" style="max-width: 30%;"/>
+  <img src="samples/sample_outputs/sample2.png" alt="Image 2" style="max-width: 30%;" />
+</div>
 
 <br><br>
 
