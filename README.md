@@ -6,7 +6,7 @@ It can also be applied to an image using a string in a text file.
 
 <br>
 
-  <img src="samples/sample_outputs/combined_image.jpg" alt="Image 1" />
+  <img src="samples/sample_outputs/combined_image.jpg" />
 <br><br>
 
 ## Prerequisites
