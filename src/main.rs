@@ -78,7 +78,10 @@ impl AsciiArtGenerator {
                 let mut ascii_char = ' '; 
                 if a >= 100 { 
                     for _ in 0..2{
-                        ascii_char = text.chars().nth(index).unwrap();
+                        ascii_char = match text.chars().nth(index){
+                                Some(c) => c,
+                                _ => '?'
+                        };
                         index = (index + 1) % text_len;
                         let colored_char = Color::RGB(r, g, b).paint(ascii_char.to_string());
                         print!("{}", colored_char);
